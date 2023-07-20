@@ -1,0 +1,47 @@
+{
+  "__parent": "./config.json"
+, "person": {
+      "name": {
+          "first":  "Maria-Melina"
+        , "last":   "Vourna"
+        , "full":   "@{./last} @{./first}"
+      }
+    , "nick":   "Melina&acute;"
+    , "abbr":   "mvourna"
+    , "email":  "@{./abbr}@gmail.com"
+    , "url":    "http://bit.ly/mvournacv"
+    , "bio": {
+          "birth":        "October &apos;99"
+        , "citizenship":  "Greek"
+        , "location": {
+              "country":  "Greece"
+            , "city":     "Patras"
+            , "full":     "@{./country}, @{./city}"
+          }
+      }
+    , "home": {
+          "pos-prefix": "Mathematican"
+        , "pos-title":  "HCI MSc student"
+        , "pos-tags":   "#mathematician #hci #ui/ux_design #front-end_development"
+      }
+    , "socials": {
+        "linkedin": {
+            "name":   "linkedin"
+          , "label":  "LinkedIn"
+          , "title":  "LinkedIn profile"
+          , "icon":   "fab fa-linkedin"
+          , "url":    "https://www.linkedin.com/in/maria-melina-vourna-6075b1251/"
+        }
+      , "github": {
+            "name":   "github"
+          , "label":  "Github"
+          , "title":  "Github account"
+          , "icon":   "fab fa-github"
+          , "url":    "https://github.com/vournam"
+        }
+      }
+    , "contacts": {
+        "email":  "mvourna@gmail.com"
+      }
+  }
+}
